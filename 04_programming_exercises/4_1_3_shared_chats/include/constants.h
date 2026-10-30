@@ -1,0 +1,13 @@
+#ifndef CONSTANTS_H
+#define CONSTANTS_H
+
+#define MAX_CHAT_COUNT 100
+#define MAX_MSG_COUNT 100
+#define MAX_MSG_LENGTH 100
+
+#define MAX_CLIENT_COUNT 100
+
+#define SERVER_IP "127.0.0.1"
+#define SERVER_PORT 12345
+
+#endif

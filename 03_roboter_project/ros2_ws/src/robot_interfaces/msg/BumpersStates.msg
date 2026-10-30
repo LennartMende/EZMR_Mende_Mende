@@ -1,0 +1,2 @@
+bool left_bumper
+bool right_bumper

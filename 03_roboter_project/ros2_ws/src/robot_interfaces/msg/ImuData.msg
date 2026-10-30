@@ -1,0 +1,6 @@
+float32 accel_x_mps2
+float32 accel_y_mps2
+float32 accel_z_mps2
+float32 gyro_x_radps
+float32 gyro_y_radps
+float32 gyro_z_radps

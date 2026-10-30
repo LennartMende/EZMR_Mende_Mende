@@ -1,0 +1,12 @@
+.pio
+.vscode
+include/secrets.h
+include/secrets.hpp
+
+extra_packages
+
+ros2_ws/build
+ros2_ws/install
+ros2_ws/log
+
+lib

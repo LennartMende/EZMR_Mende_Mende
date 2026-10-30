@@ -1,0 +1,7 @@
+bool buzzer_on
+bool led_on
+string motion_command
+uint16 distance_cm
+string info_text
+---
+bool success
