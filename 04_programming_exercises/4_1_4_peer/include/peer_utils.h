@@ -54,15 +54,15 @@ void generate_first_chats(char chats[MAX_CHAT_COUNT][MAX_MSG_COUNT][MAX_MSG_LENG
 // general utils
 void get_msg_count(char chats[MAX_CHAT_COUNT][MAX_MSG_COUNT][MAX_MSG_LENGTH], int msg_counts[MAX_CHAT_COUNT]);
 cJSON* get_json_chats(char chats[MAX_CHAT_COUNT][MAX_MSG_COUNT][MAX_MSG_LENGTH], int chat_count);
-char* read_file();
-cJSON* get_json_chats_from_file();
+// char* read_file();
+// cJSON* get_json_chats_from_file();
 
 // chat data
 void initialize_chats();
-int load_chats(char chats[MAX_CHAT_COUNT][MAX_MSG_COUNT][MAX_MSG_LENGTH]);
-int save_chats(char saved_chats[MAX_CHAT_COUNT][MAX_MSG_COUNT][MAX_MSG_LENGTH]);
-int save_peer_fds(int incoming_peer_fds[MAX_PEER_COUNT]);
-int load_peer_fds(int incoming_peer_fds[MAX_PEER_COUNT]);
+// int load_chats(char chats[MAX_CHAT_COUNT][MAX_MSG_COUNT][MAX_MSG_LENGTH]);
+// int save_chats(char saved_chats[MAX_CHAT_COUNT][MAX_MSG_COUNT][MAX_MSG_LENGTH]);
+// int save_peer_fds(int incoming_peer_fds[MAX_PEER_COUNT]);
+// int load_peer_fds(int incoming_peer_fds[MAX_PEER_COUNT]);
 
 // peer management
 int connect_peer();
